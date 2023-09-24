@@ -10,6 +10,6 @@
     text-align: left;
     word-wrap: normal;
     font-style: normal;
-    width: 200 px;
+    max-width: 60%;
     font-size: 1em;
 }
