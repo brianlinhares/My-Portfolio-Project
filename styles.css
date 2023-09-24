@@ -1,5 +1,5 @@
 .mitLicenseFont{
-    background-color: red;
+    background-color: lightseagreen;
     text-align: center;
     word-wrap: normal;
     font-style: oblique;
@@ -7,9 +7,12 @@
 }
 
 .textLicenseFont{
-    text-align: justify;
+    text-align: center;
     font-style: normal;
     font-size: 1em;
     word-wrap: normal;
-        
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px;    
     }
