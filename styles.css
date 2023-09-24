@@ -10,6 +10,9 @@
     text-align: center;
     word-wrap: normal;
     font-style: normal;
-    width: 60%;
+    border: 2 px;
+    border-style: solid;
+    border-left: 20%;
+    border-right: 20%;
     font-size: 1em;
 }
