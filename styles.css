@@ -1,7 +1,14 @@
-.licenseFont{
+.mitLicenseFont{
     background-color: aqua;
-    text-align: left;
+    text-align: center;
     word-wrap: normal;
     font-style: oblique;
     font-size: 2em;
+}
+.textLicenseFont{
+    background-color: white;
+    text-align: left;
+    word-wrap: normal;
+    font-style: normal;
+    font-size: 1em;
 }
