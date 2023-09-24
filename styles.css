@@ -5,13 +5,10 @@
     font-style: oblique;
     font-size: 2em;
 }
-
-
 .textLicenseFont{
     background-color: blue;
     text-align: center;
     font-style: normal;
     font-size: 1em;
     word-wrap: break-word;
-    padding: 200px;
-}
+    }
