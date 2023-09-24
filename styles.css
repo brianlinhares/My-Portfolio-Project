@@ -1,4 +1,7 @@
-.greenItems{
-    color: green;
+.licenseFont{
+    background-color: aqua;
+    text-align: center;
+    word-wrap: normal;
+    font-style: oblique;
     font-size: 2em;
 }
