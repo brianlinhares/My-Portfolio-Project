@@ -7,9 +7,10 @@
 }
 
 .textLicenseFont{
-    background-color: blue;
+    background-color: white;
     text-align: center;
     font-style: normal;
     font-size: 1em;
+    width: 80%;
     
 }
