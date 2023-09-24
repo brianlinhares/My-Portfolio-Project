@@ -11,6 +11,6 @@
     text-align: center;
     font-style: normal;
     font-size: 1em;
-    width: 80%;
-    
+    word-wrap: normal;
+    padding: 200px;
 }
