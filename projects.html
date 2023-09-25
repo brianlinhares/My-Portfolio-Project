@@ -11,19 +11,13 @@
     <style>
       .grid{
         display:grid;
-        grid-template-columns: 200px 1fr 200px;
-        grid-template-rows: auto 1fr auto;
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows: auto auto;
         gap: 5px;
         height: 90vh;
       }
-      header, footer{
-        grid-column: 1/4;
-      }
-      header,aside,article,footer{
-        border-style: solid;
-        background: silver;
-        font-size: 2em;
-      }
+      
+
     </style>
 
 </head>
@@ -38,16 +32,15 @@
 
 <body>
     <div class="grid">
-      <header>Header</header>
       <aside>left</aside>
       <article>Article</article>
       <aside>Right</aside>
-      <footer>Footer</footer>
+      
 
     </div>
     <!-- BOOTSTRAP START -->
     
-    <div class="card" style="width: 18rem;">
+    <div class="one" style="width: 18rem;">
       <img src="/My-Portfolio-Project/BusTracker.png" class="card-img-top" alt="Profile Picture">
       <div class="card-body">
         <h5 class="card-title">Real Time Bus Tracker</h5>
@@ -57,7 +50,7 @@
       </div>
    </div>
 
-   <div class="card" style="width: 18rem;">
+   <div class="two" style="width: 18rem;">
     <img src="/My-Portfolio-Project/BusTracker.png" class="card-img-top" alt="Profile Picture">
     <div class="card-body">
       <h5 class="card-title">Real Time Bus Tracker</h5>
@@ -67,7 +60,7 @@
     </div>
    </div>
 
-   <div class="card" style="width: 18rem;">
+   <div class="three" style="width: 18rem;">
     <img src="/My-Portfolio-Project/BusTracker.png" class="card-img-top" alt="Profile Picture">
     <div class="card-body">
       <h5 class="card-title">Real Time Bus Tracker</h5>
