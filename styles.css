@@ -35,11 +35,14 @@
     object-fit: fill;
   }
   .one{
+    margin-top: 20%;
     margin-left: 10%;
   }
   .two{
+    margin-top: 20%;
     align-content: center;
   }
   .three{
+    margin-top: 20%;
     margin-right: 10%;
   }
