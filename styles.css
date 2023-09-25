@@ -14,6 +14,12 @@
     word-wrap: normal; 
 }
 
+.textalignleft{
+    text-align: left;
+    font-style: normal;
+    font-size: 2em;
+}
+
 .bootstraptext{
     text-align: left;
     font-style: normal;
