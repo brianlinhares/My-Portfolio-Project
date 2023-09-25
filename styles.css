@@ -29,15 +29,13 @@
     color: black;
 }
 
-.one{
-    grid-column-start: 1;
-    grid-column-end: 2;
-}
-.two{
-    grid-column-start: 2;
-    grid-column-end: 3;
-}
-.three{
-    grid-column-start: 3;
-    grid-column-end: 4;
-}
+.grid{
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: auto auto;
+    gap: 20px;
+    height: 90vh;
+  }
+  .video{
+    margin-right: auto;
+  }
