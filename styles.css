@@ -29,13 +29,7 @@
     color: black;
 }
 
-.grid{
-    display:grid;
-    grid-template-columns: repeat(2,1fr);
-    grid-template-rows: auto auto;
-    gap: 20px;
-    height: 90vh;
-  }
+
   .video{
-    object-fit: cover;
+    object-fit: fill;
   }
