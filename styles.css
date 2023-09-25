@@ -13,6 +13,7 @@
     font-style: normal;
     font-size: 1em;
     word-wrap: normal; 
+    color: black;
 }
 
 .textalignleft{
@@ -25,6 +26,7 @@
     font-size: 2em;
     word-wrap: normal; 
     width: 50 px;
+    color: black;
 }
 
 .grid{
