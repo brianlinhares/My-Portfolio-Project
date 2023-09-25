@@ -16,7 +16,6 @@
     color: black;
 }
 
-
 .textalignleft{
     margin-left: 50px;
 }
@@ -32,4 +31,13 @@
 
   .video{
     object-fit: fill;
+  }
+  .one{
+    margin-left: 10%;
+  }
+  .two{
+    align-content: center;
+  }
+  .three{
+    margin-right: 10%;
   }
