@@ -8,6 +8,16 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <!-- BOOTSTRAP CSS END -->
 
+    <style>
+        .grid{
+          display:grid;
+          grid-template-columns: repeat(2,1fr);
+          grid-template-rows: auto auto;
+          gap: 20px;
+          height: 90vh;
+        }
+    </style>
+
 </head>
 
 <body>
@@ -62,24 +72,29 @@
     </nav>
 
     <!-- BOOTSTRAP END -->
-    
-    <div class="card" style="width: 18rem;">
-        <img src="/My-Portfolio-Project/profilePicture.jpg" class="card-img-top" alt="Profile Picture">
-        <div class="card-body">
-          <h5 class="card-title">About Me</h5>
-          <p class="card-text">Hi there! My name is Brian Linhares and I’m currently in the MIT xPro Program. My day to day is working as a Project Engineer for Collins Aerospace on some pretty awesome space & military hardware. At night, I’m programming away! Take a look around my portfolio and feel free to reach out. 
-          </p>
-          <a href="https://www.linkedin.com/in/brian-linhares" class="btn btn-primary">LinkedIn Connection</a>
-          <br>
-          <p></p>
-          <a href="https://github.com/brianlinhares" class="btn btn-primary">Github: brianlinhares</a>
-          <br>
-          <p></p>
-          <a href=mailto:“mgt.brian89@gmail.com” style="color:red">Contact Email</a>
-        </div>
+    <div class="grid">
+        <aside>
+            <div class="card" style="width: 18rem;">
+                <img src="/My-Portfolio-Project/profilePicture.jpg" class="card-img-top" alt="Profile Picture">
+                <div class="card-body">
+                <h5 class="card-title">About Me</h5>
+                <p class="card-text">Hi there! My name is Brian Linhares and I’m currently in the MIT xPro Program. My day to day is working as a Project Engineer for Collins Aerospace on some pretty awesome space & military hardware. At night, I’m programming away! Take a look around my portfolio and feel free to reach out. 
+                </p>
+                <a href="https://www.linkedin.com/in/brian-linhares" class="btn btn-primary">LinkedIn Connection</a>
+                <br>
+                <p></p>
+                <a href="https://github.com/brianlinhares" class="btn btn-primary">Github: brianlinhares</a>
+                <br>
+                <p></p>
+                <a href=mailto:“mgt.brian89@gmail.com” style="color:red">Contact Email</a>
+                </div>
+            </div>
+        </aside>
+        
+        <article>
+            <iframe width="928" height="522" text-align="center" src="https://www.youtube.com/embed/YUDTlS6Qzbs" title="Rainy Day in a Serene Ancient Temple - Japanese Zen Music For Soothing, Meditation, Healing" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </article>
     </div>
-        <iframe width="928" height="522" text-align="center" src="https://www.youtube.com/embed/YUDTlS6Qzbs" title="Rainy Day in a Serene Ancient Temple - Japanese Zen Music For Soothing, Meditation, Healing" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-      </div>
 
       <!-- BOOTSTRAP JS START -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
